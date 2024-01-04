@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.Continer{
+  background-image: url("./pictuers/cat-1.jpg");
+  background-size: cover;
+  background-position: center;
+  height:220vh;
+}
+.hero {
+  position:-webkit-sticky;
+}
+
+.navber {
+  width: 95%;
+  height: 60px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+h1 .c,.dut{
+  color: rgb(177, 167, 146);
+}
+h1{
+  color: rgb(236, 136, 184);
+  cursor: pointer;
+  font-size: 2.5rem;
+
+  
+}
+
+.navber ul {
+  display: flex;
+  list-style: none;
+}
+
+.navber ul li {
+  list-style: none;
+  margin-right: 18px;
+
+}
+
+.navber ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  padding: 6px 8px;
+  border-radius: 6px 0 6px 0;
+  border: 2px solid transparent;
+  transition: all 200ms ease;
+}
+
+.navber ul li a:hover {
+  color: rgb(255, 255, 255);
+  background-color:rgba(240, 136, 183, 0.817);
+}
+.cat-ditels{
+  display: flex;
+  width: 90%;
+
+  margin:50px auto;
+  justify-content: space-between;
+}
+.cat-ditels .ditels{
+  
+  width: 50%;
+}
+.cat-ditels .cat-img-1{
+  width: 40%;
+  height:300px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  margin: 10px;
+  background-image: url("./pictuers/cat-5.jpg");
+}
+
+.cat-ditels .cat-img-2{
+  width: 40%;
+  height:300px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  margin: 10px;
+  background-image: url("./pictuers/cat-6.jpg");
+}
+
+.cat-ditels .cat-img-3{
+  width: 40%;
+  height:300px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  margin: 10px;
+  background-image: url("./pictuers/cat-7.jpg");
+}
+
+
+.input{
+  display: block;
+}
+.ditels .name{
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+.ditels .pare{
+  text-align: justify;
+  font-style: italic;
+}
+
+.input{
+  margin-top: 8px;
+  display: inline-flex;
+  align-items: center;
+}
+label{
+  margin:0 5px ;
+  font-weight: 700;
+}
+button{
+  padding: 2px 4px;
+  background-color:rgba(240, 136, 183, 0.817) ;
+  border-radius: 3px;
+  color:;
+  outline: none;
+}
+footer{
+  height: 40px;
+  background-color: rgba(196, 158, 164, 0.637);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer p{ 
+  text-align: center;
+}
