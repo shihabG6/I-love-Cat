@@ -146,3 +146,13 @@ footer{
 footer p{ 
   text-align: center;
 }
+
+
+
+/* contact.html syle */
+
+#facebook{
+  font-size: 3rem;
+  margin-top: 40px;
+  margin-left: 50px;
+}
